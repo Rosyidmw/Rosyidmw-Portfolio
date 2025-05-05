@@ -8,12 +8,12 @@ export const About = () => {
         {
             name: "LinkedIn",
             url: "https://www.linkedin.com/in/rosyidmktwbw/",
-            icon: "/linkedin.png", // letakkan file di folder public/icons
+            icon: "linkedin.png", // letakkan file di folder public/icons
         },
         {
             name: "GitHub",
             url: "https://github.com/Rosyidmw",
-            icon: "/github.png",
+            icon: "github.png",
         }
     ];
 
