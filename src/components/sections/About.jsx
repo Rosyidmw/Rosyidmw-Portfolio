@@ -1,4 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import githubIcon from '../assets/icons/github.png';
+import linkedinIcon from '../assets/icons/linkedin.png';
 
 export const About = () => {
 
@@ -8,12 +10,12 @@ export const About = () => {
         {
             name: "LinkedIn",
             url: "https://www.linkedin.com/in/rosyidmktwbw/",
-            icon: "linkedin.png", // letakkan file di folder public/icons
+            icon: linkedinIcon, // letakkan file di folder public/icons
         },
         {
             name: "GitHub",
             url: "https://github.com/Rosyidmw",
-            icon: "github.png",
+            icon: githubIcon,
         }
     ];
 
