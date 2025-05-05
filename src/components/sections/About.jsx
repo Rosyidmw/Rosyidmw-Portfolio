@@ -1,6 +1,4 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import githubIcon from '../assets/icons/github.png';
-import linkedinIcon from '../assets/icons/linkedin.png';
 
 export const About = () => {
 
@@ -10,12 +8,10 @@ export const About = () => {
         {
             name: "LinkedIn",
             url: "https://www.linkedin.com/in/rosyidmktwbw/",
-            icon: linkedinIcon, // letakkan file di folder public/icons
         },
         {
             name: "GitHub",
             url: "https://github.com/Rosyidmw",
-            icon: githubIcon,
         }
     ];
 
@@ -58,7 +54,7 @@ export const About = () => {
                                     className="flex items-center gap-2 bg-blue-500/10 text-blue-500 py-2 px-4 rounded-full hover:bg-blue-500/20 
                                                hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
                                 >
-                                    <img src={social.icon} alt={social.name} className="w-5 h-5" />
+                                    
                                     <span>{social.name}</span>
                                 </a>
                             ))}
