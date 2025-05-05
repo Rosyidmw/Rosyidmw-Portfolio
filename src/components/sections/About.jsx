@@ -73,7 +73,7 @@ export const About = () => {
                         </li>
                         <li>
                             Mata Kuliah Relevan: Pemrograman Perangkat Bergerak, Pemrograman Berbasis Objek,
-                            Pemrograman Web, Algoritma dan Struktur Data, Basis Data, Rekayasa Kebutuhan Perangkat Lunak, Android Dasar
+                            Pemrograman Web, Algoritma dan Struktur Data, Basis Data, Rekayasa Kebutuhan Perangkat Lunak, Android Dasar, Android Fundamental, Android Intermediate, Machine Learning untuk Android
                         </li>
                     </ul>
                 </div>
