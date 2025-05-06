@@ -2,7 +2,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
 
-    const frontendSkills = ["Android Native", "Dart", "Firebase", "Flutter", "Jetpack Compose", "Kotlin", "Retrofit", "XML"];
+    const frontendSkills = ["Android Native", "Dart", "Firebase", "Flutter", "Jetpack Compose", "Kotlin", "Kotlin Multiplatform", "Retrofit", "XML"];
 
     const socialLinks = [
         {
